@@ -1,0 +1,63 @@
+body{
+  background-color: black;
+  color: white;
+}
+.header{
+  text-align: center;
+  font-size: 30px;
+}
+
+.text{
+  border: 1px solid black;
+  padding: 60px;
+  width: 1000px;
+  height: 700px;
+  text-align: justify;
+  font-size: 19px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+table.onDemandStreaming{float:right;}
+
+table.onDemandStreaming tr th,td{
+  border: 1px solid white;
+  width: 250px;
+  height: 70px;
+  font-size: 19px;
+}
+table.onDemandStreaming tr td{
+  text-align: center;
+}
+
+table.onDemandStreaming tr td a:link{
+  color:red;
+  text-decoration: none;
+}
+
+table.onDemandStreaming tr td a:visited{
+  color:red;
+  text-decoration: none;
+}
+
+.back-Button a{
+  text-decoration: none;
+  color: #f00;
+}

@@ -1,0 +1,61 @@
+
+body{
+  background-color:white;
+  background-size: cover;
+  color: black;
+}
+
+.header{
+  text-align: center;
+  font-size: 30px;
+  color: #1695F6;
+}
+.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.tonav li:link, .topnav li:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.htext {
+  border: 1px solid white;
+  padding: 10px;
+  width: 1000px;
+  height: 500px;
+  text-align: justify;
+}
+.htext h2{
+  color: #1695F6;
+}
