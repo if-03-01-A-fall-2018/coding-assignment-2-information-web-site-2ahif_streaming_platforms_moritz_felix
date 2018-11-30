@@ -1,19 +1,29 @@
-body{
-  background-color: black;
-  color: white;
-}
-.header{
-  text-align: center;
-  font-size: 30px;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(24,24,24);
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(160, 160, 160);
+}
+
+.header h1 {
+    font-size: 50px;
+
+}
 .text{
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 60px;
-  width: 1000px;
+  width: 1500px;
   height: 700px;
   text-align: justify;
-  font-size: 19px;
+  font-size: 25px;
 }
 
 .topnav {
@@ -38,9 +48,9 @@ body{
 table.onDemandStreaming{float:right;}
 
 table.onDemandStreaming tr th,td{
-  border: 1px solid white;
-  width: 250px;
-  height: 70px;
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
   font-size: 19px;
 }
 table.onDemandStreaming tr td{
@@ -60,4 +70,5 @@ table.onDemandStreaming tr td a:visited{
 .back-Button a{
   text-decoration: none;
   color: #f00;
+  font-size: 25px;
 }
