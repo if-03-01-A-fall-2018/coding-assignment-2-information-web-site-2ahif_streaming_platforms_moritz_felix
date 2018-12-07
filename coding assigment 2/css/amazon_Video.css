@@ -10,7 +10,8 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: rgb(160, 160, 160);
+    background-image: url("../images/amazonvideo.jpg");
+    background-size: 694px 185px;
 }
 
 .header h1 {

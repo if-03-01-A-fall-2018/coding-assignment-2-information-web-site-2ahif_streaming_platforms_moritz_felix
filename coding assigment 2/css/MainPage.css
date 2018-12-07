@@ -13,12 +13,12 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: rgb(160, 160, 160);
+    background-image: url("../images/MainPageImage.jpg");
 }
 
 .header h1 {
     font-size: 50px;
-
+    color: DodgerBlue;
 }
 
 .topnav {
@@ -40,14 +40,14 @@ body {
     color: black;
 }
 
-
-.streamArea {
+.MainPageInfoText {
     background-color: rgb(160, 160, 160);
     padding: 30px;
     margin-top: 60px;
     width: 75%
 }
-.streamArea a{
+
+.MainPageInfoText a{
   text-decoration: none;
   color: #f00;
 }
