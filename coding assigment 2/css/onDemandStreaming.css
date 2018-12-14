@@ -4,7 +4,6 @@
 
 body {
     font-family: Arial;
-    padding: 10px;
     background: rgb(24,24,24);
 }
 .header {
@@ -17,7 +16,7 @@ body {
     font-size: 50px;
 
 }
-.onDemandStreamingText{
+.text{
   border: 1px solid white;
   padding: 60px;
   width: 1500px;
@@ -45,7 +44,11 @@ body {
     color: black;
 }
 
-table.onDemandStreaming{float:right;}
+table.onDemandStreaming
+{
+  float:right;
+}
+
 
 table.onDemandStreaming tr th,td{
   border: 1px solid black;

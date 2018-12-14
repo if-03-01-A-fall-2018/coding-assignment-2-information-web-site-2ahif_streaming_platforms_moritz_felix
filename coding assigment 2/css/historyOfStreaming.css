@@ -13,7 +13,7 @@ article section h1{
 .header {
     padding: 30px;
     text-align: center;
-    background: rgb(160, 160, 160);
+    background: #fff;
 }
 .header h1 {
     font-size: 50px;
@@ -37,10 +37,10 @@ article section h1{
     color: black;
 }
 .text{
-  border: 1px solid white;
-  padding: 10px;
-  width: 1500px;
-  height: 700px;
+  background-color: rgb(160, 160, 160);
+  padding: 30px;
+  margin-top: 60px;
+  width: 75%
   text-align: justify;
   font-size: 25px;
 }
