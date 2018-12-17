@@ -13,7 +13,7 @@ article section h1{
 .header {
     padding: 30px;
     text-align: center;
-    background: #fff;
+    background: rgb(160, 160, 160);
 }
 .header h1 {
     font-size: 50px;
@@ -40,9 +40,7 @@ article section h1{
   background-color: rgb(160, 160, 160);
   padding: 30px;
   margin-top: 60px;
-  width: 75%
-  text-align: justify;
-  font-size: 25px;
+  width: 75%;
 }
 .text dd p a{
   text-decoration: none;

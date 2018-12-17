@@ -63,13 +63,12 @@ body {
 }
 
 
-.htext {
-  border: 1px solid white;
-  padding: 10px;
-  width: 1000px;
-  height: 500px;
-  text-align: justify;
+.amazon_videoText {
+  background-color: rgb(160, 160, 160);
+  padding: 30px;
+  margin-top: 60px;
+  width: 75%
 }
-.htext h2{
+.amazon_videoText h2{
   color: #1695F6;
 }
