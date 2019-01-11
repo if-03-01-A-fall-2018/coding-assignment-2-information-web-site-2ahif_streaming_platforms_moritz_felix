@@ -5,7 +5,7 @@
 body {
     font-family: Arial;
     padding: 10px;
-    background: url("../images/bg.jpeg");
+    background:rgb(24,24,24);
     background-attachment: fixed;
 }
 article section h1{

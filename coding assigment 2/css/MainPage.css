@@ -1,32 +1,13 @@
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial;
-    padding: 10px;
-    background: rgb(24,24,24);
-}
-
-
-.header {
-    padding: 30px;
-    text-align: center;
-    background-image: url("../images/MainPageImage.jpg");
-    background-position: center;
-}
-
-.header h1 {
-    font-size: 50px;
-    color: DodgerBlue;
+    background: #fff;
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
 }
-
 .topnav a {
     float: left;
     display: block;
@@ -41,14 +22,15 @@ body {
     color: black;
 }
 
-.MainPageInfoText {
-    background-color: rgb(160, 160, 160);
+.topnav img{
+  float: right;
+}
+.historyOfStreaming {
     padding: 30px;
     margin-top: 60px;
-    width: 75%
 }
 
-.MainPageInfoText a{
+.historyOfStreaming  a{
   text-decoration: none;
   color: #f00;
 }
