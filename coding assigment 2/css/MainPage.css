@@ -19,11 +19,10 @@ body {
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
 }
 
 .topnav img{
-  float: right;
+  float: rig  ht;
 }
 .historyOfStreaming {
     padding: 30px;
