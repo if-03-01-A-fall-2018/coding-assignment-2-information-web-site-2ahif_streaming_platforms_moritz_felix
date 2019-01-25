@@ -5,14 +5,18 @@
 body {
     font-family: Arial;
     padding: 10px;
-    background:white;
+    background:linear-gradient(to left, #E6DADA, #274046);
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-    height: 50px;
-
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  margin-bottom: 50px;
+  margin-top: 0;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -29,10 +33,13 @@ body {
     color: black;
 }
 .text{
-  border: 1px solid white;
-  width: 1200px;
-  height: auto;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 50px;
+  background: white;
 }
+
 .text dd p a{
   text-decoration: none;
   color: #f00;
