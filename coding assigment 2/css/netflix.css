@@ -5,63 +5,40 @@
 body {
     font-family: Arial;
     padding: 10px;
-    background: rgb(24,24,24);
-}
-.header {
-    padding: 30px;
-    text-align: center;
-    background-image: url("../images/netflixImage.jpg");
+    background: linear-gradient(to left, #E6DADA, #274046);
 }
 
-.header h1 {
-    font-size: 50px;
-    color: Tomato;
 }
-.topnav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.topnav {
     overflow: hidden;
     background-color: #333;
+    position: sticky;
 }
-
-.topnav li {
+.topnav a {
     float: left;
-}
-
-.topnav li a{
     display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.topnav li a:hover:not(.active) {
-    background-color: #111;
+.topnav a:hover {
+    background-color: #ddd;
 }
 
-.active {
-    background-color: #4CAF50;
+.topnav img{
+  float: right;
+}
+.netflixText
+{
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
 }
 
-
-.tonav li:link, .topnav li:visited {
-    background-color: red;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-
-.netflixText p{
-  background-color: rgb(160, 160, 160);
-  padding: 30px;
-  margin-top: 60px;
-  width: 75%
-}
 .netflixText h2{
   color: #f00;
 }

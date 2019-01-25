@@ -1,12 +1,13 @@
 
 body {
     font-family: Arial;
-    background: #fff;
+
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: sticky;
 }
 .topnav a {
     float: left;
@@ -22,7 +23,7 @@ body {
 }
 
 .topnav img{
-  float: rig  ht;
+  float: right;
 }
 .historyOfStreaming {
     padding: 30px;
